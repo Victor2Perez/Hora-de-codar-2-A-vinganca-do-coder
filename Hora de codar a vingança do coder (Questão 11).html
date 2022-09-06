@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 11</title>
+</head>
+<!--Tendo como entrada a altura e o sexo (codificado da seguinte forma: 1: feminino 2: masculino) de uma pessoa, construa um programa que calcule e imprima seu peso ideal-->
+
+<body>
+    <script>
+var a = parseInt(prompt("Digite o primeiro valor:"));
+var b = parseInt(prompt("Digite o segundo valor: "));
+var calculadora = parseInt(prompt("Digite o tipo de cálculo que deseja: sendo 1.Adição, 2.Subtração, 3.Divisão, 4.Multiplicação"))
+var total = 0;
+
+if(calculadora == 1){
+    total = a + b;
+    alert (total)
+}
+
+else if(calculadora == 2){
+    total = a - b;
+    alert (total)
+}
+
+else if(calculadora == 3){
+    total = a / b;
+    alert (total)
+}
+
+else if (calculadora == 4){
+    total = a * b;
+    alert (total)
+}
+else{
+    alert("ERRO!! Tente novamente.");
+}
+</script>
+</body>
+</html>

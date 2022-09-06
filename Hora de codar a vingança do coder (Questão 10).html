@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 10</title>
+</head>
+<!--Tendo como entrada a altura e o sexo (codificado da seguinte forma: 1: feminino 2: masculino) de uma pessoa, construa um programa que calcule e imprima seu peso ideal-->
+
+<body>
+    <script>
+var a = prompt("Qual é o seu sexo? 1 = Masculino e 2 = Feminino");
+var b = parseFloat(prompt("Qual é a sua altura?"))
+var Pf;
+var Pm;
+
+
+if (a == 1) {
+  Pm= (72.7 * b - 58);
+  alert("O seu peso ideial é : " + Pm);
+}
+
+else if (a == 2) {
+  Pf = (62.1 * b - 44.7);
+  alert("O seu peso ideial é : " + Pf);
+}
+else {
+  alert("ERRO!! Tente novamente.")
+}
+</script>
+</body>
+</html>
